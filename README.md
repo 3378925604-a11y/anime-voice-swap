@@ -13,7 +13,7 @@
 ## Install / 安装
 
 ```bash
-npx skills add <your-github>/anime-voice-swap
+npx skills add 3378925604-a11y/anime-voice-swap
 ```
 或直接把 `skills/anime-voice-swap/` 拷进你的 agent 技能目录（Claude Code: `.claude/skills/`，OpenCode: `~/.config/opencode/skills/`）。
 
