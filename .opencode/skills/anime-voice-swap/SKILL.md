@@ -1,6 +1,6 @@
 ---
 name: anime-voice-swap
-description: '动漫换配音 / 视频换音色 / AI 配音替换：把动漫（或任意人声素材）里的说话声换成指定音色，且 100% 保留原声优的表演（气息、情绪、节奏、口型时序）。基于 Seed-VC 零样本语音转换（voice-to-voice，不是 TTS 念稿），全程本地 GPU，零注册。当用户说"把这个视频的声音换成 XX 音色""换配音""给动漫角色变声""保留表演只换音色"，或提供 目标音色素材+待换声视频 时使用。反触发：只是要朗读/旁白新文本（那是 TTS，用百炼 cosyvoice 或 edge-tts）；只有低码率孤本源且要提画质（那是超分任务，用 video-upscale-cpu）。'
+description: '动漫换配音 / 视频换音色 / AI 配音替换：把动漫（或任意人声素材）里的说话声换成指定音色，且 100% 保留原声优的表演（气息、情绪、节奏、口型时序）。基于 Seed-VC 零样本语音转换（voice-to-voice，不是 TTS 念稿），全程本地 GPU，零注册。当用户说"把这个视频的声音换成 XX 音色""换配音""给动漫角色变声""保留表演只换音色"，或提供 目标音色素材+待换声视频 时使用。反触发：只是要朗读/旁白新文本（那是 TTS，用百炼 cosyvoice 或 edge-tts）；只有低码率孤本源且要提画质（那是超分任务，用 video-upscale-cpu）。 English triggers: swap the voice in a video to a target timbre, redub an anime character using a reference voice clip, keep the original acting (breath, emotion, lip-sync timing) but change the voice, voice conversion voice-to-voice not TTS, seed-vc dubbing replacement.'
 ---
 
 # anime-voice-swap — 动漫换配音（Seed-VC 零样本工作流）
